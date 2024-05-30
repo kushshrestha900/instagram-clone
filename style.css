@@ -1,6 +1,25 @@
 h1{
     text-align: center;
 }
+.footer{
+    float:inline-end;
+}
+.form{
+    float: right;
+    border-style: solid;
+    border-width: 2px;
+    margin-left: 20vw;
+}
+img{
+    float: left;
+}
 .good{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 500px;
+    margin: 100px;
     text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    
 }
