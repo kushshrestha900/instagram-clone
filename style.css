@@ -4,22 +4,51 @@ h1{
 .footer{
     float:inline-end;
 }
-.form{
-    float: right;
-    border-style: solid;
-    border-width: 2px;
-    margin-left: 20vw;
+.first{
+   height: 30%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
-img{
-    float: left;
+.second{
+    height:70%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
 }
-.good{
+.second input{
+    background-color: aliceblue;
+    width: 258px;
+    padding: 9px 0px 7px 8px;
+    border-radius: 3px;
+    /* margin-top: -15px; */
+}
+.second button{
+    background-color: mediumaquamarine;
+    border-radius: 3px;
+    opacity: 0.3;
+    color: white;
+    width: 268px;
+    font-weight: 600;
+    padding: 5px;
+    font-size: 14px;
+}
+.second span{
+    color:grey;
+    font-size:13px;
+    font-weight: 600;
     display: flex;
-    flex-wrap: nowrap;
-    width: 500px;
-    margin: 100px;
-    text-align: center;
-    line-height: 50px;
-    font-size: 30px;
-    
+    justify-content: space-between;
+}
+span p{
+    position: relative;
+    bottom: 5px;
+    color: white;
+}
+.fb{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
